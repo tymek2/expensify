@@ -13,10 +13,6 @@ store.subscribe(()=> {
     console.log(store.getState())
 })
 
-store.dispatch(addExpense({title: 'test expense 1', amount: 1000, date: '2018-12-01'}))
-store.dispatch(addExpense({title: 'test expense 2', amount: 5000, date: '2018-11-01'}))
-store.dispatch(addExpense({title: 'test expense 3', amount: 3000, date: '2018-10-01'}))
-
 // store.dispatch(updateExpense({id: testExpense.id, amount: 2000}))
 // store.dispatch(deleteExpense({id: testExpense.id}))
 // store.dispatch(setText({text: 'test text'}))
